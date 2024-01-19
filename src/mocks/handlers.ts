@@ -6,13 +6,10 @@ export const handlers = [
       ctx.status(200),
       ctx.json([
         {
-          name: 'Bruce Wayne',
+          name: 'ShinCode',
         },
         {
-          name: 'Clark Kent',
-        },
-        {
-          name: 'Princess Diana',
+          name: 'Test',
         },
       ])
     )
